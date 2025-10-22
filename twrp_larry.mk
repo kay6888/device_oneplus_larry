@@ -15,7 +15,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from larry device
 $(call inherit-product, device/oneplus/larry/device.mk)
-)
+
 
 PRODUCT_DEVICE := larry
 PRODUCT_NAME := twrp_larry
