@@ -23,13 +23,9 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := CPH2515
 PRODUCT_MANUFACTURER := OnePlus
 
-PRODUCT_GMS_CLIENTID_BASE := android-oppo
+PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="OP5958L1-user 14 UKQ1.230924.001 T.R4T2.1cd4793-227bc-40edf release-keys" \
-    BuildFingerprint=OnePlus/CPH2467/OP5958L1:14/UKQ1.230924.001/T.R4T2.1cd4793-227bc-40edf:user/release-keys \
-    DeviceName=OP5958L1 \
-    DeviceProduct=OP5958L1 \
-    SystemDevice=OP5958L1 \
-    SystemName=OP5958L1
+    PRIVATE_BUILD_DESC="twrp_larry-eng 99.87.36 SP2A.220405.004 eng.ubunte.20241025.152537 test-keys"
 
+BUILD_FINGERPRINT := OnePlus/twrp_larry/larry:99.87.36/SP2A.220405.004/ubunter10251523:eng/test-keys
