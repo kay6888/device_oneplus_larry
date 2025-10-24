@@ -18,9 +18,9 @@ $(call inherit-product, device/oneplus/larry/device.mk)
 
 PRODUCT_DEVICE := larry
 PRODUCT_NAME := twrp_larry
-PRODUCT_BRAND := OnePlus
+PRODUCT_BRAND := onePlus
 PRODUCT_MODEL := CPH2515
-PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_MANUFACTURER := onePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
